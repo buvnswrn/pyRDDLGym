@@ -1,0 +1,150 @@
+repo_name: buvnswrn/pyRDDLGym
+report_id: 24622eae6558c48c22a27fdd380e9d29
+version: 0.1
+repo_type: Public
+timestamp: '2024-04-07T17:47:36+00:00'
+requested_by: mike-gimelfarb
+provider: github
+branch: main
+detected_tools_count: 11
+tools:
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/buvnswrn/pyRDDLGym
+  detection_source: Repo Metadata
+- name: Matplotlib
+  description: A plotting library for the Python programming language
+  website_url: http://matplotlib.org
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Charting Libraries
+  image_url: https://img.stackshare.io/service/2993/2DZC4KaA_400x400.jpg
+  detection_source_url: https://github.com/buvnswrn/pyRDDLGym/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: ataitler
+  last_updated_on: 2022-10-25 04:07:42.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/buvnswrn/pyRDDLGym
+  detection_source: Repo Metadata
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/buvnswrn/pyRDDLGym/blob/main/requirements_jax.txt
+  detection_source: requirements_jax.txt
+  last_updated_by: Mike Gimelfarb
+  last_updated_on: 2022-12-09 07:03:41.000000000 Z
+- name: Pillow
+  description: Python Imaging Library
+  website_url: https://python-pillow.github.io/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/2375/default_1f67b0ca7416a9f52beb655f90b5602d5ef74b75.jpg
+  detection_source_url: https://github.com/buvnswrn/pyRDDLGym/blob/main/requirements_jax.txt
+  detection_source: requirements_jax.txt
+  last_updated_by: Mike Gimelfarb
+  last_updated_on: 2022-12-09 07:03:41.000000000 Z
+- name: NumPy
+  description: Fundamental package for scientific computing with Python
+  website_url: http://www.numpy.org/
+  version: '1.22'
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Data Science Tools
+  image_url: https://img.stackshare.io/service/2179/default_332f874a2edb2686f578aa6389313efcea1eec41.png
+  detection_source_url: https://github.com/buvnswrn/pyRDDLGym/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: ataitler
+  last_updated_on: 2022-10-24 00:27:14.000000000 Z
+- name: TensorFlow
+  description: Open Source Software Library for Machine Intelligence
+  website_url: https://www.tensorflow.org
+  version: 2.11.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Machine Learning Tools
+  image_url: https://img.stackshare.io/service/4717/FtFnqC38_400x400.png
+  detection_source_url: https://github.com/buvnswrn/pyRDDLGym/blob/main/requirements_jax.txt
+  detection_source: requirements_jax.txt
+  last_updated_by: Mike Gimelfarb
+  last_updated_on: 2023-01-26 01:45:41.000000000 Z
+- name: pygame
+  description: Open Source python programming language library for making multimedia
+    applications
+  website_url: https://www.pygame.org/news
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Cross-Platform Desktop Development
+  image_url: https://img.stackshare.io/service/6512/default_1e1ae07154b9f359c410f3f24ba3c96c1be21cdf.jpg
+  detection_source_url: https://github.com/buvnswrn/pyRDDLGym/blob/main/requirements_jax.txt
+  detection_source: requirements_jax.txt
+  last_updated_by: Mike Gimelfarb
+  last_updated_on: 2022-12-09 07:03:41.000000000 Z
+- name: gym
+  description: 'The OpenAI Gym: A toolkit for developing and comparing your reinforcement
+    learning agents'
+  package_url: https://pypi.org/project/gym
+  version: 0.24.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20403/default_ce843a13e614e0f1450cbeee8c38810e4f092f1e.png
+  detection_source_url: https://github.com/buvnswrn/pyRDDLGym/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: ataitler
+  last_updated_on: 2022-10-24 00:27:14.000000000 Z
+- name: ply
+  description: Python Lex &amp; Yacc
+  package_url: https://pypi.org/project/ply
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20290/default_bae4ec34e549383af798a405820088989f617ff0.png
+  detection_source_url: https://github.com/buvnswrn/pyRDDLGym/blob/main/requirements.txt
+  detection_source: requirements.txt
+  last_updated_by: ataitler
+  last_updated_on: 2022-10-24 00:27:14.000000000 Z
+- name: tensorflow-probability
+  description: Probabilistic modeling and statistical inference in TensorFlow
+  package_url: https://pypi.org/project/tensorflow-probability
+  version: 0.19.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/buvnswrn/pyRDDLGym/blob/main/requirements_jax.txt
+  detection_source: requirements_jax.txt
+  last_updated_by: Mike Gimelfarb
+  last_updated_on: 2023-01-26 01:45:41.000000000 Z
